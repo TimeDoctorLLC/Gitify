@@ -3,7 +3,7 @@
 /**
  * Make sure dependencies have been installed, and load the autoloader.
  */
-$file = $file = dirname(__FILE__) . '/vendor/autoload.php';
+$file = dirname(__FILE__) . '/../../autoload.php';
 if (file_exists($file)) {
     require $file;
 } else if (!class_exists(modmore\Gitify\Gitify, false)) {
